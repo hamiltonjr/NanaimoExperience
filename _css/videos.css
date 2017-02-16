@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*
+	Folha de estilo para vídeos da template Nanaimo Experience
+*/	
+
+iframe.video {
+	width="480";
+	height="270";
+}
+
+iframe.video:focus { 
+    outline: none;
+}
+
+iframe.video[seamless] { 
+    display: block;
+}

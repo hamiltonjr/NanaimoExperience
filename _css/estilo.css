@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/*
+	Folha de estilo principal da template Nanaimo Experience
+*/
+
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #D2691E;	
+		color: #ffffff;
+	}
+
+	header {
+		background-color: #8B4513;
+		border: 1px solid #ffffff;
+		border-radius: 20px;
+		width:  98%;
+		height: 200px;
+		margin: 0px auto 10px auto;
+		padding: 10px;
+	}
+
+	header h1 {
+		margin: 30px 0px 0px 250px;
+		font-size: 70px;
+	}
+		
+	header h2 {
+		margin: 0px 0px 0px 250px;
+		font-size: 30px;
+	}
+			
+	figure#figura img {
+		position: absolute;
+		top: 30px;
+		left: 30px;
+		width: 170px;
+		height: 170px;
+	}
+
+	figure#logo img {
+		position: absolute;
+		top: 30px;
+		left: 1130px;
+	}
+
+	nav#menu {
+		text-align: center;
+	}
+
+	nav#menu ul#botoes {
+		list-style-type: none;
+	}
+
+	nav#menu li {
+		display: inline-block;
+		background-color: #F4A460;
+		border-radius: 20px;
+		padding: 10px 25px 10px 25px;
+		margin: 1px 20px 1px 20px;
+	}
+
+	nav#menu li#especial {
+		background-color: #8B4513;
+		border: 1px solid #ffffff;
+		color: #F4A460;				
+		padding: 8px 20px 8px 20px;
+		margin: 1px 20px 1px 20px;
+	}
+
+	nav#menu li:hover {
+		background-color: #8B4513;
+		border: 1px solid #ffffff;
+		transition: background-color .7s;
+	}
+
+	nav#menu a {
+		color: #8B4513;
+		text-decoration: none;
+	}
+
+	nav#menu a:hover {
+		color: #F4A460;
+	}
+
+	aside#especial {
+		display: block;
+		float: left;
+		background-color: #8B4513;
+		border: 1px solid #ffffff;
+		border-radius: 20px;
+		width:  20%;
+		height: 1250px;
+		margin: 5px 0px 20px 0px;
+		padding: 12px;
+		text-align: justify;
+	}
+
+	aside#especial ul {
+		list-style-type: none;
+	}
+
+	aside#especial h2 {
+		background-color: #F4A460;
+		padding: 10px;				
+	}
+
+	aside#especial a {
+		text-decoration: none;
+		color: #D2691E;
+	}
+
+	aside#especial a:hover {
+		color: #F4A460;
+	}
+
+	aside#especial img {
+		padding: 10px auto 10px auto;
+	}
+
+	section#corpo {
+		display: block;
+		float: right;
+		background-color: #8B4513;
+		border: 1px solid #ffffff;
+		border-radius: 20px;
+		width:  75%;
+		height: 1250px;
+		margin: 5px 0px 20px 0px;
+		padding: 10px;
+	}
+
+	table#tabela {
+		margin: 40px auto 50px auto;
+		border: 1px solid #ffffff;
+	}
+
+	table#tabela td.coluna {
+		text-align: center;
+	}
+
+	table#tabela caption {
+		background-color: #F4A460;
+		padding: 5px;
+		margin: 0px;
+	}
+
+	table#tabela td {
+		border: 1px solid #ffffff;
+		padding: 5px;
+	}
+
+	article.artigo {
+		margin: 5px;
+	}
+
+	article.artigo h2 {
+		background-color: #F4A460;
+		padding: 10px;
+	}
+
+	article.artigo p {
+		text-indent: 50px;
+		text-align: justify;
+	}
+
+	article.artigo img#img-esq {
+		display: block;
+		float: left;
+		padding: 0px 30px 0px 0px;
+	}
+
+	iframe#video-esq {
+		display: block;
+		float: left;
+		margin: 10px;	
+	}
+
+	footer#rodape {
+		display: block;
+		clear: both;
+		background-color: #8B4513;
+		border: 1px solid #ffffff;
+		border-radius: 20px;
+		width:  98%;
+		padding: 10px;
+		text-align: center;
+	}
+
+	footer#rodape p {
+		margin: 0px;
+	}
+
+	footer#rodape ul#links-rodape {
+		list-style-type: none;
+	}
+
+	footer#rodape li {
+		display: inline-block;
+		padding: 0px 40px 0px 40px;
+	}
+
+	footer#rodape a {
+		text-decoration: none;
+	}
+
+	footer#rodape a:hover {
+		color: #F4A460;
+	}
