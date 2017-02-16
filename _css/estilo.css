@@ -206,3 +206,8 @@
 	footer#rodape a:hover {
 		color: #F4A460;
 	}
+
+	footer#rodape img {
+		display: block;
+		float: right;
+	}

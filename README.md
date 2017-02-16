@@ -1,4 +1,4 @@
-NANAIMO EXPERIENCE (template HTML5/CSS3 para websites)
+# NANAIMO EXPERIENCE (template HTML5/CSS3 para websites)
 ### Versão 1.0 ###
 
 INTRODUÇÃO
